@@ -8,6 +8,7 @@ Project 2: Lottery Number Generator
 Project 3: Number Guessing Game
 Project 4: Trivia Study Program
 Project 5: Text Color Changer
+Project 6: Bank Account Management System
 
 ## Project Details:
 
@@ -109,3 +110,27 @@ ANSI code for purple text
 Main Program Logic
 Prompt the user to choose a color and input a string of text
 Display the user's text in the chosen color
+
+### Project 6: Bank Account Management System
+Overview:
+This project simulates a simple bank account system. The program allows users to deposit, withdraw, and check their balance after entering their account number. It uses a BankAccount class to define attributes and methods related to account management.
+
+Expectations:
+
+Create a BankAccount class with methods for depositing, withdrawing, and checking the balance.
+Use an indefinite loop to allow the user to continue performing actions on their account.
+Provide practice with object-oriented programming concepts, including classes, attributes, methods, and loops.
+
+Notes:
+Define the BankAccount class
+Initialize the account with an account number and a starting balance
+Add the deposit amount to the balance
+Subtract the withdrawal amount from the balance if funds are sufficient
+Return the current balance
+Create an instance of BankAccount
+Start an indefinite loop for user interactions
+Exit condition for the loop
+Check if the account number matches the user's account
+Prompt for deposit amount and call the deposit method
+Prompt for withdrawal amount and call the withdraw method
+Call the check_balance method to display the current balance
