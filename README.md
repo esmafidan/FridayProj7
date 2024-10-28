@@ -6,6 +6,8 @@ Welcome to the Python Projects collection! This repository includes various inte
 Project 1: Mad Lib Game
 Project 2: Lottery Number Generator
 Project 3: Number Guessing Game
+Project 4: Trivia Study Program
+
 
 
 ## Project Details:
@@ -66,3 +68,23 @@ Check if the guess is correct
 Prompt to try again if the guess is incorrect
 Farewell message after the correct guess
 If the user says no, print a message and end the program
+
+
+### Project 4: Trivia Study Program
+Overview:
+This project is an interactive trivia quiz that displays a series of questions, accepts answers from the user, and provides feedback on correctness. A dictionary is used to store questions and answers.
+
+Expectations:
+
+Use a dictionary to store questions as keys and answers as values.
+Use a for loop to go through each question, prompting the user for their answer.
+Provide feedback on whether each answer is correct, building knowledge of dictionary and looping structures.
+
+Notes:
+Define a dictionary with trivia questions as keys and their correct answers as values
+Display a greeting message
+Loop through each question and answer in the dictionary
+Display the question to the user
+Prompt the user to input their answer
+Check if the user's answer matches the correct answer (case-insensitive)
+Display a farewell message after all questions are answered
