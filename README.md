@@ -7,8 +7,7 @@ Project 1: Mad Lib Game
 Project 2: Lottery Number Generator
 Project 3: Number Guessing Game
 Project 4: Trivia Study Program
-
-
+Project 5: Text Color Changer
 
 ## Project Details:
 
@@ -88,3 +87,25 @@ Display the question to the user
 Prompt the user to input their answer
 Check if the user's answer matches the correct answer (case-insensitive)
 Display a farewell message after all questions are answered
+
+
+### Project 5: Text Color Changer
+Overview:
+This project allows the user to display text in different colors by calling specific functions that format the text with ANSI color codes. It’s a fun way to learn about functions, parameters, and return values.
+
+Expectations:
+
+Define five functions, each applying a different color format to the text.
+Prompt the user to choose a color and display their input text in that color.
+Reinforce skills with functions, parameters, and return values, as well as working with color formatting in the console.
+
+Notes:
+Define functions to format text in different colors
+ANSI code for red text
+ANSI code for blue text
+ANSI code for green text
+ANSI code for yellow text
+ANSI code for purple text 
+Main Program Logic
+Prompt the user to choose a color and input a string of text
+Display the user's text in the chosen color
