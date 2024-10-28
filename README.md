@@ -4,6 +4,8 @@ Welcome to the Python Projects collection! This repository includes various inte
 ## Table of Contents:
 
 Project 1: Mad Lib Game
+Project 2: Lottery Number Generator
+
 
 ## Project Details:
 
@@ -21,3 +23,22 @@ Notes:
 Prompt the player for input
 Combine the player's inputs into the story template
 Print the completed story
+
+### Project 2: Lottery Number Generator
+Overview:
+This project generates random numbers for a PowerBall ticket, allowing users to pick five numbers between 1 and 69, plus one number between 1 and 26. It uses the random module to simulate the lottery drawing.
+
+Expectations:
+
+Generate and display six random numbers (five white balls and one red ball).
+Separate the last number from the others for clarity.
+Practice using Python’s random module and basic print formatting.
+
+Notes:
+Import the random module to use the randint function for generating random numbers
+Display a greeting message to the user
+Generate five random numbers between 1 and 69 for the white balls
+Generate a random number between 1 and 26 for the red PowerBall
+Format the output with spaces between the numbers
+First five numbers have one space between them, followed by three spaces before the PowerBall number
+Display a farewell message to the user
