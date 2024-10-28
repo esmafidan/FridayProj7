@@ -5,6 +5,7 @@ Welcome to the Python Projects collection! This repository includes various inte
 
 Project 1: Mad Lib Game
 Project 2: Lottery Number Generator
+Project 3: Number Guessing Game
 
 
 ## Project Details:
@@ -42,3 +43,26 @@ Generate a random number between 1 and 26 for the red PowerBall
 Format the output with spaces between the numbers
 First five numbers have one space between them, followed by three spaces before the PowerBall number
 Display a farewell message to the user
+
+### Project 3: Number Guessing Game
+Overview:
+A guessing game where the computer selects a random number between 1 and 10, and the user tries to guess the correct number. The game loops until the correct answer is guessed or the user chooses to quit.
+
+Expectations:
+
+Continuously prompt the user for guesses.
+Use an if statement to check if the guess is correct, and a while loop to keep the game running until the user is successful.
+Build comfort with looping structures, conditionals, and random number generation.
+
+Notes:
+Import the random module to generate a random number for the secret number
+Display a greeting message and ask the user if they want to play
+Check if the user wants to play the game
+Generate a random number between 1 and 10
+Initialize the guess variable
+Start a loop that continues until the user guesses correctly
+Ask the user for their guess and convert it to an integer
+Check if the guess is correct
+Prompt to try again if the guess is incorrect
+Farewell message after the correct guess
+If the user says no, print a message and end the program
